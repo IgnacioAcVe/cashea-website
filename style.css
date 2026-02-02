@@ -1,3 +1,41 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;;
+}
+
+.top-bar{
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+    /* Efecto de Sombra (Eje X, Eje Y, Difuminado, Color) */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 14px;
+}
+
+.top-bar-logo{
+    width: 144px;
+    height: 38px;
+    margin-left: 70px;
+    margin-top: 11px;
+}
+
+.nav-bar-items{
+    margin-top: 11px;
+    margin-left: 110px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1; /* Hace que el contenedor de links ocupe el espacio restante */
+}
+
+.nav-bar-items a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 13px;
+}
+
 
 .parent{
     text-align: center;
