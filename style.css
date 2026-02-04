@@ -43,7 +43,19 @@ body {
     color: black;
     font-weight: 800;
     font-size: 13px;
+    padding: 10px;
+    border-radius: 12px;
+
+    transition: all 0.3s ease-in-out;
 }
+
+.nav-bar-items a:hover{
+    background-color: #FDFA3D;
+    opacity: 0.92;
+}
+
+
+
 
 
 .parent{
